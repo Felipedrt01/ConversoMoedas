@@ -1,4 +1,4 @@
-/* Geral */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -6,9 +6,9 @@ body {
     padding: 0;
 }
 
-/* Breadcrumbs */
+
 .breadcrumbs {
-    background-color: #007bff;
+    background-image: linear-gradient(135deg, #d30606, #00a2ff);
     color: white;
     padding: 15px 0;
 }
@@ -33,7 +33,6 @@ body {
     text-decoration: none;
 }
 
-/* Seção do histórico */
 .section {
     padding: 50px 0;
 }
@@ -73,7 +72,7 @@ body {
     margin-right: 5px;
 }
 
-/* Histórico de conversões */
+
 .history-content {
     margin-top: 20px;
 }
@@ -131,7 +130,7 @@ body {
     color: #666;
 }
 
-/* Botão de exclusão */
+
 .btn-excluir {
     position: absolute;
     top: 10px;
@@ -142,7 +141,7 @@ body {
     color: #dc3545;
 }
 
-/* Compartilhamento em redes sociais */
+
 .post-social-media {
     margin-top: 20px;
 }
@@ -167,7 +166,7 @@ body {
     color: #0056b3;
 }
 
-/* Estilização para dispositivos móveis */
+
 @media (max-width: 768px) {
     .history-header {
         flex-direction: column;

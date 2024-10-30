@@ -9,39 +9,50 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            background-color: #f4f7f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
         }
         .hero-content {
             text-align: center;
-            padding: 60px 20px;
-            background-image: linear-gradient(135deg, #007bff, #00a2ff);
+            padding: 60px 40px;
+            background-image: linear-gradient(135deg, #d30606, #00a2ff);
             color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
         }
         .hero-content h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             font-weight: bold;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
         .hero-content p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 auto 20px;
+            font-size: 1.25rem;
+            max-width: 500px;
+            margin: 0 auto 25px;
         }
         .btn-start {
             background-color: #fff;
-            color: #007bff;
-            padding: 12px 30px;
-            font-size: 1.1rem;
+            color: #d30606;
+            padding: 14px 40px;
+            font-size: 1.2rem;
             font-weight: bold;
             border-radius: 50px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-            transition: background-color 0.3s, color 0.3s;
+            transition: background-color 0.3s, color 0.3s, transform 0.2s;
         }
         .btn-start:hover {
-            background-color: #007bff;
+            background-color: #2a2a2b;
             color: #fff;
+            transform: scale(1.05);
+        }
+        .btn-start:focus {
+            outline: none;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
         }
     </style>
 </head>
@@ -49,8 +60,9 @@
 <body>
 
     <section class="hero-content">
-        <h1>Faça suas conversões de moedas</h1>
-        <p>Uma plataforma para facilitar a conversão de moedas de maneira rápida e segura.</p>
+        <h1>Conversor de Moedas</h1>
+        <p>Converta suas moedas em segundos com segurança e precisão. Explore taxas de câmbio atualizadas e faça suas operações financeiras com facilidade.</p>
+        <a href="#start" class="btn btn-start">Comece Agora</a>
     </section>
 
 </body>

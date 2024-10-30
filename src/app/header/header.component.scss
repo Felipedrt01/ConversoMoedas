@@ -1,9 +1,8 @@
-/* CSS para o Header Básico */
 
 .header {
     padding: 10px 0;
     background-color: #f8f9fa;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ce3535;
 }
 
 .navbar {
@@ -32,7 +31,6 @@
     border-radius: 2px;
 }
 
-/* Estilos para os Links de Navegação */
 
 .navbar-nav {
     display: flex;
@@ -56,7 +54,7 @@
     color: #007bff;
 }
 
-/* Estilos do Botão de Login */
+
 
 .btn-primary {
     color: #fff;
@@ -72,7 +70,6 @@
     background-color: #0056b3;
 }
 
-/* Responsividade para Navegação no Mobile */
 
 @media (max-width: 991px) {
     .navbar-collapse {
