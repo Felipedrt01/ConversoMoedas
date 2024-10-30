@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,106 +11,46 @@
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
         }
-        .section-title h2 {
-            font-size: 1.5rem;
+        .hero-content {
+            text-align: center;
+            padding: 60px 20px;
+            background-image: linear-gradient(135deg, #007bff, #00a2ff);
+            color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .hero-content h1 {
+            font-size: 2.5rem;
             font-weight: bold;
-            text-align: center;
+            margin-bottom: 15px;
         }
-        .hero-content h1, .hero-content p {
-            text-align: center;
+        .hero-content p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 20px;
         }
-        .btn {
+        .btn-start {
+            background-color: #fff;
+            color: #007bff;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .btn-start:hover {
             background-color: #007bff;
             color: #fff;
-            border: none;
-        }
-        .single-feature {
-            text-align: center;
-            margin: 20px 0;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
         }
     </style>
 </head>
 
 <body>
 
-    <!-- Hero Section -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Faça suas conversões de moedas</h1>
-                <p>Uma plataforma para facilitar a conversão de moedas de maneira rápida e segura.</p>
-                <div class="text-center">
-                    <a href="#" class="btn">Iniciar Agora</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="py-5">
-        <div class="container">
-            <div class="section-title">
-                <h2>Soluções para você</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="single-feature">
-                        <h3>Seguro Viagem</h3>
-                        <p>Proteção completa em suas viagens com planos acessíveis.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-feature">
-                        <h3>Chip Internacional</h3>
-                        <p>Fique conectado onde quer que vá, com planos acessíveis.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-feature">
-                        <h3>Moeda em Espécie</h3>
-                        <p>Converta moedas estrangeiras com taxas competitivas.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="section-title">
-                <h2>FAQ - Perguntas Frequentes</h2>
-            </div>
-            <div class="accordion" id="faqAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                            Como funciona o conversor de moedas?
-                        </button>
-                    </h2>
-                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Digite a moeda desejada e veja a conversão automática.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                            Para que serve o gráfico?
-                        </button>
-                    </h2>
-                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Analise a variação cambial para identificar os melhores momentos de compra.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="hero-content">
+        <h1>Faça suas conversões de moedas</h1>
+        <p>Uma plataforma para facilitar a conversão de moedas de maneira rápida e segura.</p>
     </section>
 
 </body>
